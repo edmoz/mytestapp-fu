@@ -13,19 +13,11 @@
   },
   "bugs": "https://github.com/edmoz/one-and-done/issues",
   "scripts": {
-    "start": "supervisor -e 'node|js|jade' server",
-    "test": "grunt"
+    "start": "node server",
   },
   "dependencies": {
-    "browserid-verify": "~0.1.2",
     "express": "3.4.4",
     "jade": "*"
-  },
-  "devDependencies": {
-    "awsbox": "*",
-    "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~0.7.0",
-    "load-grunt-tasks": "~0.2.0"
   }
 }
 
