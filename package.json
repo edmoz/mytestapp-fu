@@ -13,7 +13,7 @@
   },
   "bugs": "https://github.com/edmoz/one-and-done/issues",
   "scripts": {
-    "start": "node server",
+    "start": "node server"
   },
   "dependencies": {
     "express": "3.4.4",
